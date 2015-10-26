@@ -10,6 +10,7 @@ void Company::addEmployee(Person* pers) {
 float computeSalary(string name, string month, float baseSalary) {
 
     float final_salary;
+    float days;
 
     for (int i; i<size(_employees);i++)
       {
